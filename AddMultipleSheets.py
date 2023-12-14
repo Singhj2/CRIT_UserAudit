@@ -3,7 +3,7 @@ import pandas as pd
 
 print('What service is this for: ')
 service = input()
-Path = ("C:/Users/singhj2/UserAudit_" + service + "/")
+Path = ("" + service + "/")
 # path needs to be defined
 output_file = (service + 'UserAudit.xlsx')
 
